@@ -19,3 +19,9 @@ Sent1 = "This the beginning of the string";
 Sent2 = " and this is the end of the string";
 
 document.write (Sent1 + Sent2); //This is a concatenated string.
+
+//This is an HTML Event.
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
