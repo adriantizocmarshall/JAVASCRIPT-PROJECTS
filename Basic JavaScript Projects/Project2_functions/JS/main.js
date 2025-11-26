@@ -3,4 +3,5 @@ function myFunction() {
     var C = "I am learning";
     C += " a lot from this book!";
     document.getElementById("Concatenate").innerHTML = C;
+    alert(C);
 }
