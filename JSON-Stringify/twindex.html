@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="myCat"></p>
+        <script>
+            /*Set the data as a key/value pair to be saved locally in your browser*/
+            localStorage.setItem("Name", "Isadora");
+            /*Then use the key "Name" to return its value "Isadora"*/
+            document.getElementById("myCat").innerHTML = localStorage.getItem("Name");
+        </script>
+    </body>
+</html>
